@@ -145,3 +145,4 @@ brain/
 uv.lock
 .venv/
 
+scientia_exports/

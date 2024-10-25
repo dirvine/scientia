@@ -5,10 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "datasets>=3.0.2",
     "einops>=0.8.0",
     "faiss-cpu>=1.9.0",
     "gradio>=5.1.0",
+    "huggingface-hub>=0.26.1",
     "kivy>=2.3.0",
+    "mmh3>=5.0.1",
     "nltk>=3.9.1",
     "peft>=0.13.2",
     "protobuf>=5.28.2",
