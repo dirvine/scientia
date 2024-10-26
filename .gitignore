@@ -56,7 +56,6 @@ model_cache/
 huggingface/
 punkt/
 
-
 # Temporary files
 *.tmp
 *.temp
