@@ -1,19 +1,23 @@
+"""
+Data models for the Scientia system
+"""
+
 from dataclasses import dataclass
-from datetime import datetime
-from typing import Dict
+from typing import Dict, Any, Optional
 import numpy as np
+from datetime import datetime
 
 @dataclass
 class KnowledgePacket:
-    """Represents a unit of knowledge in the Scientia system"""
+    """Container for knowledge with associated metadata"""
     content: str
-    embeddings: np.ndarray
-    metadata: Dict
-    source_type: str  # 'conversation', 'document', 'shared'
-    timestamp: datetime
+    embeddings: Optional[np.ndarray]
+    source_type: str
+    timestamp: str
     confidence: float
     context_hash: str
-    privacy_level: str  # 'public', 'private', 'strictly_private'
+    privacy_level: str
+    metadata: Dict[str, Any]
 
 @dataclass
 class SearchResult:
