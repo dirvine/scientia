@@ -5,7 +5,7 @@ import sys
 import os
 from pathlib import Path
 import streamlit.web.cli as stcli
-from .core.knowledge_system import ScientiaCore
+from scientia.core.knowledge_system import ScientiaCore  # Changed from relative to absolute import
 import asyncio
 
 @click.group()

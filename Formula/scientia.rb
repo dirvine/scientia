@@ -3,7 +3,7 @@ class Scientia < Formula
 
   desc "AI-powered knowledge exploration and management system"
   homepage "https://github.com/dirvine/scientia"
-  url "https://github.com/dirvine/scientia/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/dirvine/scientia/archive/v0.1.0.tar.gz"
   sha256 "YOUR_TARBALL_SHA256"
   license "MIT"
 
